@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior:  smooth;
+}
+/*HOME*/
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(homeimage.jpeg);
+    background-size: cover;
+    background-position: top;
+    opacity: 75%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.Title{
+    width: 90%;
+    height: 15vh;
+    border-radius: 15px;
+    background-color: darkblue;
+    align-content: center;
+    margin: auto;
+    opacity: 80%;
+}
+
+h1{
+    color: lime;
+    font-size: 60px;
+    font-weight: 1200;
+    text-align: center;
+     
+}
+
+/*EXPERIENCES*/
+.exp{
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    align-content: center;
+}
+
+h3{
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+p{
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+
+.expimg{
+    display: block;
+    border-radius: 100px;
+    width: 25%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+}
+
+.exprow{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.exprow2{
+    display: flex;
+}
+.expcol1{
+    width: 40%;
+    height: 45vh;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: black;
+    margin: auto;
+    transition: 0.3;
+}
+
+
+.expcol2{
+    width: 40%;
+    height: 45vh;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: black;
+    margin: auto;
+}
+
+.expcol3{
+    width: 40%;
+    height: 45vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 30px;
+    background-color: black;
+    margin: auto;
+}
+
+.expcol4{
+    width: 40%;
+    height: 45vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 30px;
+    background-color: black;
+    margin: auto;
+}
+
+.expcol1:hover h3{
+    color: black;
+}
+
+.expcol1:hover p{
+    color: black;
+}
+
+.expcol2:hover h3{
+    color: black;
+}
+
+.expcol2:hover p{
+    color: black;
+}
+
+.expcol3:hover h3{
+    color: black;
+}
+
+.expcol3:hover p{
+    color: black;
+}
+
+.expcol4:hover h3{
+    color: black;
+}
+
+.expcol4:hover p{
+    color: black;
+}
+
+
+.expcol1:hover{
+    width: 50%;
+    height: 45vh;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.expcol2:hover{
+    width: 50%;
+    height: 45vh;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.expcol3:hover{
+    width: 50%;
+    height: 45vh;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.expcol4:hover{
+    width: 50%;
+    height: 45vh;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+    transition: 0.3s;
+}
+@media(max-width: 800px)
+{
+    /*HOME*/
+    .home{
+        width: 100%;
+        height: 60vh;
+    }
+    .Title{
+        width: 80%
+        height: 15vh;   
+    }
+    h1{
+        font-size: 35px;
+    }
+    /*EXPERIENCES*/
+    .exp{
+        width: 100%;
+        height: 190vh;
+        background-color: black;
+        align-content: center;
+    }
+
+    h3{
+        color: white;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+    p{
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+        transition: color 0.3s;
+    }
+
+
+    .expimg{
+        display: block;
+        border-radius: 100px;
+        width: 25%;
+        height: auto;
+        margin: auto;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .exprow{
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .exprow2{
+        display: block;
+    }
+    .expcol1{
+        width: 70%;
+        height: 40vh;
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        background-color: black;
+        margin: auto;
+        transition: 0.3;
+        margin-bottom: 30px;
+    }
+
+
+    .expcol2{
+        width: 70%;
+        height: 40vh;
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        background-color: black;
+        margin: auto;
+    }
+
+    .expcol3{
+        width: 70%;
+        height: 40vh;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 30px;
+        background-color: black;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .expcol4{
+        width: 70%;
+        height: 40vh;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 30px;
+        background-color: black;
+        margin: auto;
+    }
+    .expcol1:hover{
+        width: 80%;
+        height: 45vh;
+        border-radius: 30px;
+        background-color: white;
+        margin: auto;
+        transition: 0.3s;
+    }
+
+    .expcol2:hover{
+        width: 80%;
+        height: 45vh;
+        border-radius: 30px;
+        background-color: white;
+        margin: auto;
+        transition: 0.3s;
+    }
+
+    .expcol3:hover{
+        width: 80%;
+        height: 45vh;
+        border-radius: 30px;
+        background-color: white;
+        margin: auto;
+        transition: 0.3s;
+    }
+
+    .expcol4:hover{
+        width: 80%;
+        height: 45vh;
+        border-radius: 30px;
+        background-color: white;
+        margin: auto;
+        transition: 0.3s;
+    }
+}
