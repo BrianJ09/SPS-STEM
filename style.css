@@ -7,7 +7,7 @@
 /*HOME*/
 .home{
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background-color: black;
     background-image: url(homeimage.jpeg);
     background-size: cover;
